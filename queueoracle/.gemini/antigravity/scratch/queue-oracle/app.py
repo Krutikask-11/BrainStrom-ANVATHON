@@ -251,7 +251,23 @@ def list_patients():
 def register_patient():
     """Registers a new patient and runs ML prediction for wait time."""
     data = request.json or {}
-    name = data.get("name", "").strip() or generate_patient_name()
+    name = data.get("name", "")
+
+    if not isinstance(name, str):
+        name = ""
+        name = name.strip()
+
+    if not name:
+        return jsonify({
+        "success": False,
+        "message": "Patient name is mandatory. Please enter the patient's full name."
+    }), 400
+
+    if len(name) < 2 or len(name) > 100:
+        return jsonify({
+        "success": False,
+        "message": "Patient name must contain between 2 and 100 characters."
+    }), 400
     department = data.get("department", "General Medicine")
     priority = data.get("priority", "Normal")
     doctor_id = data.get("doctor_id")
