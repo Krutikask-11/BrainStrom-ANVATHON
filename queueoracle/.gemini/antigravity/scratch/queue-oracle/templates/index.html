@@ -982,9 +982,21 @@
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label class="form-label small fw-bold">Patient Full Name:</label>
-                        <input type="text" id="regPatientName" class="form-control" placeholder="e.g. Ramesh Kulkarni (or leave blank for auto-generate)">
-                    </div>
+    <label class="form-label small fw-bold">
+        Patient Full Name: <span class="text-danger">*</span>
+    </label>
+
+    <input
+        type="text"
+        id="regPatientName"
+        class="form-control"
+        placeholder="Enter patient's full name"
+        required
+        minlength="2"
+        maxlength="100"
+        autocomplete="off"
+    >
+</div>
                     <div class="mb-3">
                         <label class="form-label small fw-bold">Department:</label>
                         <select id="regPatientDept" class="form-select" required>
