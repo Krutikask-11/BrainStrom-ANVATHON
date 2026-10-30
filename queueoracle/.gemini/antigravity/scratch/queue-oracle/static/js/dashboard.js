@@ -314,12 +314,9 @@ async function loadQueue() {
                             </h5>
                             <small class="text-muted">${doc.department} | ${doc.specialization} | Room ${doc.room_no} | Avg Consult: ${doc.avg_consult_time} mins</small>
                         </div>
-                        <div class="d-flex align-items-center gap-2">
-                            <span class="badge bg-primary fs-6">${docPatients.length} Active in Queue</span>
-                            <button class="btn btn-sm ${doc.is_available ? 'btn-outline-secondary' : 'btn-outline-success'}" onclick="toggleDoctorAvail(${doc.id})">
-                                <i class="fas ${doc.is_available ? 'fa-coffee' : 'fa-check'}"></i> ${doc.is_available ? 'Set Break' : 'Set Available'}
-                            </button>
-                        </div>
+                       <div class="d-flex align-items-center gap-2">
+    <span class="badge bg-primary fs-6">${docPatients.length} Active in Queue</span>
+</div>
                     </div>
 
                     <!-- Currently In Consultation Banner -->
