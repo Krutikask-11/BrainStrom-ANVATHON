@@ -1,0 +1,22 @@
+Task: a7f44a99-d0f3-4a42-ae97-d1f84fffdd52/task-110
+Status: DONE
+Log: file:///C:/Users/KRUTIKA%20SHIVANAND/.gemini/antigravity/brain/a7f44a99-d0f3-4a42-ae97-d1f84fffdd52/.system_generated/tasks/task-110.log
+Log output:
+Write-Progress : Win32 internal error "Access is denied" 0x5 occurred while reading the console output buffer. Contact 
+Microsoft Customer Support Services.
+At 
+C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:1230 
+char:9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+
+FullName                                                                 Length
+--------                                                                 ------
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle.zip 1632586
+
+
+
+Last progress: 0s ago

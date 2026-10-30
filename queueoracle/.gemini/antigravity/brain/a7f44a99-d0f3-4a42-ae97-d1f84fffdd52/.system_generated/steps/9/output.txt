@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        10/30/2026   7:14 PM                queue-oracle                                                         
+
+

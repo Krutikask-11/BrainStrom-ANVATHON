@@ -1,0 +1,9 @@
+[DATA] Generated 1500 synthetic patient training records saved to C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\dataset\synthetic_patients.csv
+[DB] SQLite database initialized successfully.
+[DB] Live operational database seeded successfully with realistic hospital records.
+[ML] Loaded training dataset with 1500 patient records.
+[ML] Random Forest model saved to: C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\wait_time_rf.joblib
+[ML] Linear Regression model saved to: C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\wait_time_linear.joblib
+[ML] Metrics successfully saved to: C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\model_metrics.json
+     Random Forest -> MAE: 10.00 mins | RMSE: 13.73 mins | R�: 0.9962
+     Linear Reg    -> MAE: 59.69 mins | RMSE: 82.89 mins | R�: 0.8606

@@ -1,0 +1,16 @@
+Write-Progress : Win32 internal error "Access is denied" 0x5 occurred while reading the console output buffer. Contact 
+Microsoft Customer Support Services.
+At 
+C:\Windows\system32\WindowsPowerShell\v1.0\Modules\Microsoft.PowerShell.Archive\Microsoft.PowerShell.Archive.psm1:1230 
+char:9
++         Write-Progress -Activity $cmdletName -Status $status -Percent ...
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ReadError: (:) [Write-Progress], HostException
+    + FullyQualifiedErrorId : ReadConsoleOutput,Microsoft.PowerShell.Commands.WriteProgressCommand
+ 
+
+FullName                                                                 Length
+--------                                                                 ------
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle.zip 1632586
+
+

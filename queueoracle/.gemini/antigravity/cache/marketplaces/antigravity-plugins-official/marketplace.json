@@ -1,0 +1,470 @@
+{
+  "name": "antigravity-plugins-official",
+  "description": "Antigravity plugins marketplace catalog.",
+  "plugins": [
+    {
+      "name": "data-agent-kit-plugin",
+      "displayName": "Data Agent Kit",
+      "version": "1.1.0",
+      "description": "This plugin provides a specialized suite of skills for data engineers and database practitioners working on Google Cloud. It acts as an expert assistant, allowing you to use natural language prompts in your preferred coding agent to architect complex data pipelines, transform data with dbt, write Spark and BigQuery SQL notebooks, and orchestrate end-to-end workflows across GCP's data ecosystem.",
+      "logo": "https://www.gstatic.com/antigravity/plugins/data-agent-kit-plugin/assets/logo.svg?v=057413350267",
+      "suggestedPrompts": [
+        "Create a PySpark notebook to train a distributed Random Forest model on the BigQuery table my_transactions",
+        "Find datasets about customer orders in Knowledge Catalog and show their lineage",
+        "My last Dataflow job failed. Find the root cause in the logs and propose a fix"
+      ],
+      "author": {
+        "name": "Google LLC",
+        "email": "data-agent-kit@google.com"
+      },
+      "homepage": "https://cloud.google.com/products/data-agent-kit",
+      "repository": "https://github.com/GoogleCloudPlatform/data-agent-kit-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "gcp",
+        "data",
+        "bigquery",
+        "dbt",
+        "spark",
+        "spanner",
+        "alloydb",
+        "cloud-sql",
+        "bigtable",
+        "dataflow",
+        "airflow",
+        "notebooks"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/data-agent-kit-plugin/data-agent-kit-plugin.zip?v=6b249864eb6c",
+        "sha256": "6b249864eb6cffa07df750f0ee1e4450203cecb6b70fb895d62f22d345e79986"
+      }
+    },
+    {
+      "name": "gcalendar",
+      "displayName": "Google Calendar",
+      "version": "0.0.7",
+      "description": "Check availability, schedule events, and RSVP.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/calendar_2026/v2/web/192px.svg",
+      "suggestedPrompts": [
+        "Book 30 minutes with Priya and Sam next week",
+        "What's on my calendar today? Flag any conflicts",
+        "Block focus time before Friday's launch review"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gcalendar/gcalendar.zip?v=725fa67aad83",
+        "sha256": "725fa67aad83240d7fde9ed8c0d4e8081eb54b0756eef5bcd95984bd41419b88"
+      }
+    },
+    {
+      "name": "gdocs",
+      "displayName": "Google Docs",
+      "version": "0.0.8",
+      "description": "Read, draft, and edit docs.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/docs_2026/v2/web/192px.svg",
+      "suggestedPrompts": [
+        "Summarize this design doc and list the open questions",
+        "Draft a launch announcement in a new doc from my notes",
+        "Reply to the open comments on my doc and resolve them"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gdocs/gdocs.zip?v=5cf1d9743eac",
+        "sha256": "5cf1d9743eac704aadd1829b949942c94b6971fad0692b391465b96e4fc27d07"
+      }
+    },
+    {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+      "name": "gdrive",
+      "displayName": "Google Drive",
+      "version": "0.0.8",
+      "description": "Search, upload, download, and share files.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v2/web/192px.svg",
+      "suggestedPrompts": [
+        "Find last quarter's budget and share it with Alex",
+        "Move this week's design exports into the Launch folder",
+        "Download the Q3 report as a PDF"
+      ],
+      "extensions": {
+        "com.google.antigravity": {
+          "contextProviders": {
+            "drive": {
+              "trigger": "drive",
+              "label": "Google Drive",
+              "iconUri": "https://www.gstatic.com/images/branding/productlogos/drive_2026/v2/web/192px.svg",
+              "command": [
+                "${PLUGIN_ROOT}/skills/gdrive/scripts/gdrive",
+                "context-provider"
+              ],
+              "debounceMs": 300,
+              "options": [
+                "multi-word"
+              ],
+              "uriPatterns": [
+                "^https://docs\\.google\\.com/(?:corp/)?(?:a/[^/#?]+/)?(?:u/\\d+/)?(?:document|spreadsheets|presentation|forms|drawings|open|uc)(?:[/?#]|$)",
+                "^https://drive\\.google\\.com(?:[/?#]|$)",
+                "^https://(?:colab\\.research\\.google\\.com|colab\\.corp\\.google\\.com)/(?:corp/)?(?:a/[^/#?]+/)?(?:u/\\d+/)?drive/[a-zA-Z0-9_-]+(?:[/?#]|$)"
+              ]
+            }
+          }
+        }
+      },
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gdrive/gdrive.zip?v=7e42acf73a5b",
+        "sha256": "7e42acf73a5b7344599a058eddff9eee902c648e4b5364b94c392854c072eba1"
+      }
+    },
+    {
+      "name": "gsheets",
+      "displayName": "Google Sheets",
+      "version": "0.0.7",
+      "description": "Read, write, and format spreadsheets.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/sheets_2026/v2/web/192px.svg",
+      "suggestedPrompts": [
+        "Find the trends and outliers in this sales sheet",
+        "Build a monthly budget tracker with formulas and a chart",
+        "Import this CSV and turn it into a pivot table by region"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gsheets/gsheets.zip?v=5a07053eef19",
+        "sha256": "5a07053eef190637f16beea5d5beb4cc90acc4efaf47530ba2c03947372ddec1"
+      }
+    },
+    {
+      "name": "gslides",
+      "displayName": "Google Slides",
+      "version": "0.0.7",
+      "description": "Read, edit, and export presentations.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/slides_2026/v2/web/192px.svg",
+      "suggestedPrompts": [
+        "Turn my project notes into a 10-slide pitch deck",
+        "Add a summary slide and speaker notes to my review deck",
+        "Export the final deck as a PDF"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gslides/gslides.zip?v=bc615bef63ed",
+        "sha256": "bc615bef63ed034bbf0933964ca144e2214568c41edfd539f7d9ef4afbdff9fb"
+      }
+    },
+    {
+      "name": "android-cli-plugin",
+      "displayName": "Android CLI",
+      "version": "1.0.16625370",
+      "description": "Core tools and knowledge required to develop for Android.",
+      "logo": "https://www.gstatic.com/antigravity/plugins/android-cli-plugin/assets/logo.png?v=9d8234ff50a7",
+      "suggestedPrompts": [
+        "Create a new Android project called MyFirstApp using the empty-activity template",
+        "Run my app on a Samsung Galaxy Ultra device.",
+        "Test my app and make sure that it's ready to publish to Google Play."
+      ],
+      "author": {
+        "name": "Android Developer Tools Team"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "android",
+        "mobile",
+        "device",
+        "sdk",
+        "emulator",
+        "studio",
+        "cli",
+        "journeys"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/android-cli-plugin/android-cli-plugin.zip?v=5b18e7197820",
+        "sha256": "5b18e7197820e50cd681a27833148c6f089731d07e08f35663de997c40b2ea1e"
+      }
+    },
+    {
+      "name": "chrome-devtools-plugin",
+      "displayName": "Chrome DevTools",
+      "version": "1.10.1",
+      "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/chrome/v7/192px.svg",
+      "author": {
+        "name": "Chrome DevTools Team",
+        "email": "devtools-dev@chromium.org"
+      },
+      "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "license": "Apache-2.0",
+      "keywords": [
+        "chrome",
+        "devtools",
+        "mcp",
+        "puppeteer",
+        "debugging",
+        "automation",
+        "performance",
+        "lighthouse"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/chrome-devtools-plugin/chrome-devtools-plugin.zip?v=562716fee105",
+        "sha256": "562716fee105e411533e2ef4134714a2eb30a7f8adf5907a2aca7e1c5b0c5ec9"
+      }
+    },
+    {
+      "name": "firebase",
+      "displayName": "Firebase",
+      "version": "1.0.3",
+      "description": "Prototype, build & run modern apps that users love with Firebase's backend, AI, and operational infrastructure.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/firebase/v9/192px.svg",
+      "suggestedPrompts": [
+        "Set up Firebase in my app and connect it to a Firebase project",
+        "Add Firebase Authentication with Google sign-in to my app",
+        "Write and audit Firestore security rules for my data model",
+        "Add a Gemini-powered feature to my app with Firebase AI Logic",
+        "Deploy my web app with Firebase App Hosting"
+      ],
+      "author": {
+        "name": "Firebase",
+        "url": "https://firebase.google.com"
+      },
+      "keywords": [
+        "firebase",
+        "firestore",
+        "authentication",
+        "hosting",
+        "ai",
+        "backend",
+        "app development"
+      ],
+      "homepage": "https://firebase.google.com",
+      "repository": "https://github.com/firebase/agent-skills",
+      "license": "Apache-2.0",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/firebase/firebase.zip?v=f963859c6778",
+        "sha256": "f963859c67781a59de295d55374bb26b48957cc660e1f7394b5a81469d0d24eb"
+      }
+    },
+    {
+      "name": "google-antigravity-sdk",
+      "displayName": "Google Antigravity SDK",
+      "version": "0.0.9",
+      "description": "Using the Google Antigravity Python SDK to build AI agents",
+      "logo": "https://www.gstatic.com/antigravity/logos/antigravity-icon__full-color.png",
+      "author": {
+        "name": "Google"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "antigravity",
+        "sdk",
+        "agents",
+        "gemini"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/google-antigravity-sdk/google-antigravity-sdk.zip?v=fe4811336cca",
+        "sha256": "fe4811336ccaa92eb980c2a536a1274ec97ac2036c4168f1461c64f4f75407c6"
+      }
+    },
+    {
+      "name": "google-developer-knowledge",
+      "displayName": "Google Developer Knowledge",
+      "version": "1.0.2",
+      "description": "Search and retrieve official documentation across Google Cloud, Gemini, Android, Firebase, Flutter, and Web. Requires Google Cloud credentials (ADC) or an API key.",
+      "author": {
+        "name": "Google LLC",
+        "url": "https://developers.google.com/knowledge"
+      },
+      "homepage": "https://developers.google.com/knowledge",
+      "license": "Apache-2.0",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/google_developers/v8/192px.svg",
+      "keywords": [
+        "google",
+        "developer-knowledge",
+        "documentation",
+        "docs",
+        "search",
+        "mcp",
+        "api",
+        "reference",
+        "grounding",
+        "google-cloud",
+        "android",
+        "firebase"
+      ],
+      "suggestedPrompts": [
+        "Look up the exact gcloud CLI command and IAM roles needed to deploy a Cloud Run service with Secret Manager",
+        "Search official Google documentation for how to implement structured outputs with the Gemini API",
+        "Compare Cloud Run, GKE Autopilot, and App Engine based on official Google Cloud architecture guides"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/google-developer-knowledge/google-developer-knowledge.zip?v=634f59bbe152",
+        "sha256": "634f59bbe1521071f67fa77514d96bac71ebf44082bcf953efd2040d29d021ee"
+      }
+    },
+    {
+      "name": "google_maps_platform",
+      "displayName": "Google Maps Platform",
+      "version": "1.0.0",
+      "description": "Integration skill and tools for Google Maps Platform APIs",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/maps_2025/v1/web-96dp/logo_maps_2025_color_2x_web_96dp.png",
+      "author": {
+        "name": "Google Maps Platform"
+      },
+      "license": "Apache-2.0",
+      "keywords": [
+        "maps",
+        "places",
+        "routes"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/google_maps_platform/google_maps_platform.zip?v=ce0113a1ad42",
+        "sha256": "ce0113a1ad42275c80c9390400162dff3efb1713496925f3d4d8426b8f1edfb7"
+      }
+    },
+    {
+      "name": "science",
+      "displayName": "Science",
+      "version": "1.3.1",
+      "description": "Curated collection of agent skills for science tasks.",
+      "logo": "https://www.gstatic.com/antigravity/buildWithGoogle/science/logo.svg",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/science/science.zip?v=bf08c0d1f397",
+        "sha256": "bf08c0d1f39729fc4405951f577af4f2d2e2a726a495963c4eb81ff211570c5e"
+      }
+    },
+    {
+      "name": "gemini-api",
+      "displayName": "Gemini API",
+      "version": "2.3.0",
+      "description": "Build applications with the Gemini Interactions API and Live API, including text, image, video, and speech generation, managed agents, and real-time multimodal streaming.",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/gemini_2026/v1/web-96dp/logo_gemini_2026_color_2x_web_96dp.png",
+      "suggestedPrompts": [
+        "Build a stateful multi-turn chat script using the Interactions API and the latest models",
+        "Create a real-time voice agent using the Gemini Live API and non-blocking function calling",
+        "Migrate my project from client.models.generate_content to the Interactions API"
+      ],
+      "author": {
+        "name": "Google"
+      },
+      "homepage": "https://aistudio.google.com/docs",
+      "repository": "https://github.com/google-gemini/gemini-skills",
+      "license": "Apache-2.0",
+      "keywords": [
+        "gemini",
+        "interactions-api",
+        "live-api",
+        "omni-flash",
+        "tts",
+        "agents",
+        "multimodal",
+        "streaming"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/gemini-api/gemini-api.zip?v=f660f4b781c8",
+        "sha256": "f660f4b781c87713b585a090c7a1d7c00b35b30570449eb40b690549afda35d0"
+      }
+    },
+    {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+      "name": "google-cloud-developer",
+      "displayName": "Google Cloud Developer",
+      "version": "1.1.15",
+      "description": "Google Cloud guidance for coding agents: first-project onboarding, authentication and credential selection, and safety-critical validation for gcloud CLI commands. Includes the Google Developer Knowledge MCP server for grounded, up-to-date Google Cloud documentation.",
+      "logo": "https://www.gstatic.com/antigravity/plugins/google-cloud-developer/assets/logo.svg?v=a32f73299138",
+      "author": {
+        "name": "Google LLC",
+        "url": "https://cloud.google.com"
+      },
+      "homepage": "https://github.com/google/skills/tree/main/plugins/cloud/google-cloud-developer",
+      "repository": "https://github.com/google/skills",
+      "license": "Apache-2.0",
+      "keywords": [
+        "google-cloud",
+        "gcloud",
+        "authentication",
+        "onboarding"
+      ],
+      "suggestedPrompts": [
+        "Help me set up a new Google Cloud project, link billing, and configure local authentication.",
+        "Configure Application Default Credentials (ADC) and IAM permissions for my local development environment.",
+        "Search official Google Cloud documentation using Developer Knowledge and validate my gcloud CLI commands."
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/google-cloud-developer/google-cloud-developer.zip?v=1f5498cddb91",
+        "sha256": "1f5498cddb91187005c2d7ee802b4a8a8fa16fdf7df9bb3620a130cd8f89a9b3"
+      }
+    },
+    {
+      "name": "modern-web-guidance-plugin",
+      "displayName": "Modern Web Guidance",
+      "description": "Keep your coding agent up to date with the latest web best practices.",
+      "logo": "https://www.gstatic.com/antigravity/plugins/modern-web-guidance-plugin/assets/logo.svg?v=60a9c11e4177",
+      "suggestedPrompts": [
+        "Audit this project for modern web best practices and modernization opportunities",
+        "What is the recommended modern way to implement responsive dialogs and popovers?",
+        "Build a Chrome Extension with a side panel using Manifest V3 best practices"
+      ],
+      "author": {
+        "name": "Google Chrome",
+        "url": "https://developer.chrome.com"
+      },
+      "homepage": "https://developer.chrome.com/docs/modern-web-guidance",
+      "repository": "https://github.com/GoogleChrome/modern-web-guidance",
+      "license": "Apache-2.0",
+      "keywords": [
+        "web",
+        "html",
+        "css",
+        "javascript",
+        "chrome-extensions",
+        "best-practices"
+      ],
+      "version": "0.0.196",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/modern-web-guidance-plugin/modern-web-guidance-plugin.zip?v=4bd890056cfd",
+        "sha256": "4bd890056cfde33ef30e14a6a84e9c6cce7521f33cd4bdc4d86f39a9953752f0"
+      }
+    },
+    {
+      "name": "flutter",
+      "displayName": "Dart and Flutter",
+      "version": "1.0.7",
+      "description": "Official plugin for Dart and Flutter that installs Flutter/Dart Skills, Rules, Custom Agents, and Dart MCP server for building natively compiled, visually stunning applications for mobile, web, desktop, and embedded devices from a single codebase",
+      "logo": "https://www.gstatic.com/images/branding/productlogos/flutter/v6/192px.svg",
+      "suggestedPrompts": [
+        "Build a responsive Flutter layout that adapts across mobile, tablet, and desktop form factors",
+        "Write a widget test using WidgetTester to verify UI rendering and user interactions",
+        "Audit my app for accessibility",
+        "Diagnose and fix layout overflows or constraint issues in this Flutter widget"
+      ],
+      "author": {
+        "name": "Flutter Team",
+        "url": "https://flutter.dev"
+      },
+      "keywords": [
+        "dart",
+        "flutter",
+        "mobile",
+        "web",
+        "desktop",
+        "app development",
+        "ui"
+      ],
+      "homepage": "https://flutter.dev",
+      "repository": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins/flutter/flutter.zip?v=a0c30eb60a2c",
+        "sha256": "a0c30eb60a2cb8029b63240a88d9b553b9fb4f509658c5241d1a5bf6ae61ebb1"
+      }
+    }
+  ]
+}

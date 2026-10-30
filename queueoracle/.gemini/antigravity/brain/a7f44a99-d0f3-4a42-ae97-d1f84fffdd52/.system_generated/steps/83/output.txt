@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+
+FullName                                                                                                            Len
+                                                                                                                    gth
+--------                                                                                                            ---
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\app.py                                          156
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\database.py                                     023
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\data_generator.py                               587
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\disease_forecasting.py                          789
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\forecasting.py                                  902
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\hospital.db                                     208
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\prediction.py                                   868
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\recommendations.py                              280
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\requirements.txt                                 93
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\resource_management.py                          919
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\test_app.py                                     956
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\train_model.py                                  903
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\dataset\historical_disease.csv                  161
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\dataset\synthetic_patients.csv                  033
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\model_metrics.json                       699
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\wait_time_linear.joblib                  127
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\models\wait_time_rf.joblib                      049
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\static\css\style.css                            627
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\static\js\charts.js                             880
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\static\js\dashboard.js                          518
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\static\js\simulation.js                         448
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\templates\index.html                            579
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\app.cpython-312.pyc                 173
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\database.cpython-312.pyc            643
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\data_generator.cpython-312.pyc      704
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\disease_forecasting.cpython-312.pyc 648
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\forecasting.cpython-312.pyc         059
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\prediction.cpython-312.pyc          204
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\recommendations.cpython-312.pyc     879
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\resource_management.cpython-312.pyc 695
+C:\Users\KRUTIKA SHIVANAND\.gemini\antigravity\scratch\queue-oracle\__pycache__\train_model.cpython-312.pyc         201
+
+

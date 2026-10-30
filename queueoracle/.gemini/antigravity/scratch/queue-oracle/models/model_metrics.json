@@ -1,0 +1,77 @@
+{
+    "trained_at": "2026-10-30 19:21:09",
+    "dataset_samples": 1500,
+    "train_samples": 1200,
+    "test_samples": 300,
+    "features": [
+        "patients_ahead",
+        "doctor_workload",
+        "avg_consult_duration",
+        "priority_code",
+        "dept_code",
+        "doctor_available",
+        "arrival_hour",
+        "emergency_interruptions"
+    ],
+    "rf_metrics": {
+        "model_name": "Random Forest Regressor (Tuned)",
+        "mae": 10.0,
+        "rmse": 13.73,
+        "r2": 0.9962,
+        "r2_percentage": 99.62
+    },
+    "linear_metrics": {
+        "model_name": "Multiple Linear Regression (Baseline)",
+        "mae": 59.69,
+        "rmse": 82.89,
+        "r2": 0.8606,
+        "r2_percentage": 86.06
+    },
+    "feature_importance": [
+        {
+            "feature": "patients_ahead",
+            "importance": 54.41,
+            "description": "Number of active patients queued ahead of this token"
+        },
+        {
+            "feature": "priority_code",
+            "importance": 26.27,
+            "description": "Triage Priority (0 = Normal, 1 = Medium, 2 = Emergency)"
+        },
+        {
+            "feature": "avg_consult_duration",
+            "importance": 17.04,
+            "description": "Doctor's average consultation duration (minutes)"
+        },
+        {
+            "feature": "dept_code",
+            "importance": 1.45,
+            "description": "Hospital Department index (0 to 5)"
+        },
+        {
+            "feature": "doctor_workload",
+            "importance": 0.68,
+            "description": "Total active backlog for the assigned doctor"
+        },
+        {
+            "feature": "emergency_interruptions",
+            "importance": 0.08,
+            "description": "Simulated emergency cases interrupting routine queue"
+        },
+        {
+            "feature": "arrival_hour",
+            "importance": 0.07,
+            "description": "OPD registration hour (8 to 20)"
+        },
+        {
+            "feature": "doctor_available",
+            "importance": 0.01,
+            "description": "Doctor status (1 = Active, 0 = In Emergency / On Break)"
+        }
+    ],
+    "explanation": {
+        "summary": "Random Forest captures non-linear relationships such as triage priority queue jumping, doctor overload compounding, and emergency interruptions far better than linear regression.",
+        "mae_meaning": "On average, the Random Forest prediction is within \u00b110.0 minutes of actual waiting time.",
+        "r2_meaning": "The Random Forest model explains approximately 99.6% of the total variance in patient waiting times."
+    }
+}

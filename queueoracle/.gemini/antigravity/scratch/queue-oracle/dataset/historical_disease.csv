@@ -1,0 +1,156 @@
+date,disease_name,cases_count,suspected_count,department
+2026-09-30,Dengue,2,7,General Medicine
+2026-09-30,Malaria,3,6,General Medicine
+2026-09-30,Seasonal Influenza,24,31,General Medicine
+2026-09-30,Fever-related,27,40,Pediatrics
+2026-09-30,Gastroenteritis,5,6,General Medicine
+2026-10-01,Dengue,3,6,General Medicine
+2026-10-01,Malaria,8,12,General Medicine
+2026-10-01,Seasonal Influenza,13,16,General Medicine
+2026-10-01,Fever-related,25,37,Pediatrics
+2026-10-01,Gastroenteritis,8,10,General Medicine
+2026-10-02,Dengue,6,10,General Medicine
+2026-10-02,Malaria,8,14,General Medicine
+2026-10-02,Seasonal Influenza,17,22,General Medicine
+2026-10-02,Fever-related,20,30,Pediatrics
+2026-10-02,Gastroenteritis,5,6,General Medicine
+2026-10-03,Dengue,2,4,General Medicine
+2026-10-03,Malaria,8,13,General Medicine
+2026-10-03,Seasonal Influenza,24,31,General Medicine
+2026-10-03,Fever-related,25,37,Pediatrics
+2026-10-03,Gastroenteritis,8,10,General Medicine
+2026-10-04,Dengue,4,10,General Medicine
+2026-10-04,Malaria,5,8,General Medicine
+2026-10-04,Seasonal Influenza,17,22,General Medicine
+2026-10-04,Fever-related,28,42,Pediatrics
+2026-10-04,Gastroenteritis,8,10,General Medicine
+2026-10-05,Dengue,2,6,General Medicine
+2026-10-05,Malaria,7,12,General Medicine
+2026-10-05,Seasonal Influenza,16,20,General Medicine
+2026-10-05,Fever-related,25,37,Pediatrics
+2026-10-05,Gastroenteritis,11,14,General Medicine
+2026-10-06,Dengue,6,11,General Medicine
+2026-10-06,Malaria,3,7,General Medicine
+2026-10-06,Seasonal Influenza,17,22,General Medicine
+2026-10-06,Fever-related,22,33,Pediatrics
+2026-10-06,Gastroenteritis,5,6,General Medicine
+2026-10-07,Dengue,3,7,General Medicine
+2026-10-07,Malaria,8,14,General Medicine
+2026-10-07,Seasonal Influenza,16,20,General Medicine
+2026-10-07,Fever-related,26,39,Pediatrics
+2026-10-07,Gastroenteritis,8,10,General Medicine
+2026-10-08,Dengue,2,7,General Medicine
+2026-10-08,Malaria,7,10,General Medicine
+2026-10-08,Seasonal Influenza,24,31,General Medicine
+2026-10-08,Fever-related,26,39,Pediatrics
+2026-10-08,Gastroenteritis,6,7,General Medicine
+2026-10-09,Dengue,5,10,General Medicine
+2026-10-09,Malaria,5,8,General Medicine
+2026-10-09,Seasonal Influenza,18,23,General Medicine
+2026-10-09,Fever-related,28,42,Pediatrics
+2026-10-09,Gastroenteritis,8,10,General Medicine
+2026-10-10,Dengue,3,6,General Medicine
+2026-10-10,Malaria,4,7,General Medicine
+2026-10-10,Seasonal Influenza,24,31,General Medicine
+2026-10-10,Fever-related,26,39,Pediatrics
+2026-10-10,Gastroenteritis,9,11,General Medicine
+2026-10-11,Dengue,6,10,General Medicine
+2026-10-11,Malaria,6,10,General Medicine
+2026-10-11,Seasonal Influenza,13,16,General Medicine
+2026-10-11,Fever-related,28,42,Pediatrics
+2026-10-11,Gastroenteritis,5,6,General Medicine
+2026-10-12,Dengue,3,6,General Medicine
+2026-10-12,Malaria,8,13,General Medicine
+2026-10-12,Seasonal Influenza,14,18,General Medicine
+2026-10-12,Fever-related,26,39,Pediatrics
+2026-10-12,Gastroenteritis,8,10,General Medicine
+2026-10-13,Dengue,2,4,General Medicine
+2026-10-13,Malaria,3,7,General Medicine
+2026-10-13,Seasonal Influenza,19,24,General Medicine
+2026-10-13,Fever-related,27,40,Pediatrics
+2026-10-13,Gastroenteritis,6,7,General Medicine
+2026-10-14,Dengue,6,12,General Medicine
+2026-10-14,Malaria,6,11,General Medicine
+2026-10-14,Seasonal Influenza,16,20,General Medicine
+2026-10-14,Fever-related,20,30,Pediatrics
+2026-10-14,Gastroenteritis,11,14,General Medicine
+2026-10-15,Dengue,6,12,General Medicine
+2026-10-15,Malaria,6,10,General Medicine
+2026-10-15,Seasonal Influenza,24,31,General Medicine
+2026-10-15,Fever-related,21,31,Pediatrics
+2026-10-15,Gastroenteritis,9,11,General Medicine
+2026-10-16,Dengue,4,8,General Medicine
+2026-10-16,Malaria,6,9,General Medicine
+2026-10-16,Seasonal Influenza,14,18,General Medicine
+2026-10-16,Fever-related,27,40,Pediatrics
+2026-10-16,Gastroenteritis,10,13,General Medicine
+2026-10-17,Dengue,2,7,General Medicine
+2026-10-17,Malaria,4,6,General Medicine
+2026-10-17,Seasonal Influenza,18,23,General Medicine
+2026-10-17,Fever-related,27,40,Pediatrics
+2026-10-17,Gastroenteritis,6,7,General Medicine
+2026-10-18,Dengue,2,6,General Medicine
+2026-10-18,Malaria,5,9,General Medicine
+2026-10-18,Seasonal Influenza,13,16,General Medicine
+2026-10-18,Fever-related,28,42,Pediatrics
+2026-10-18,Gastroenteritis,8,10,General Medicine
+2026-10-19,Dengue,3,8,General Medicine
+2026-10-19,Malaria,4,6,General Medicine
+2026-10-19,Seasonal Influenza,20,26,General Medicine
+2026-10-19,Fever-related,26,39,Pediatrics
+2026-10-19,Gastroenteritis,9,11,General Medicine
+2026-10-20,Dengue,3,6,General Medicine
+2026-10-20,Malaria,8,12,General Medicine
+2026-10-20,Seasonal Influenza,13,16,General Medicine
+2026-10-20,Fever-related,25,37,Pediatrics
+2026-10-20,Gastroenteritis,7,9,General Medicine
+2026-10-21,Dengue,6,11,General Medicine
+2026-10-21,Malaria,7,11,General Medicine
+2026-10-21,Seasonal Influenza,22,28,General Medicine
+2026-10-21,Fever-related,25,37,Pediatrics
+2026-10-21,Gastroenteritis,11,14,General Medicine
+2026-10-22,Dengue,4,7,General Medicine
+2026-10-22,Malaria,7,10,General Medicine
+2026-10-22,Seasonal Influenza,20,26,General Medicine
+2026-10-22,Fever-related,28,42,Pediatrics
+2026-10-22,Gastroenteritis,9,11,General Medicine
+2026-10-23,Dengue,7,13,General Medicine
+2026-10-23,Malaria,8,12,General Medicine
+2026-10-23,Seasonal Influenza,14,18,General Medicine
+2026-10-23,Fever-related,32,48,Pediatrics
+2026-10-23,Gastroenteritis,6,7,General Medicine
+2026-10-24,Dengue,10,19,General Medicine
+2026-10-24,Malaria,3,6,General Medicine
+2026-10-24,Seasonal Influenza,22,28,General Medicine
+2026-10-24,Fever-related,34,51,Pediatrics
+2026-10-24,Gastroenteritis,5,6,General Medicine
+2026-10-25,Dengue,11,20,General Medicine
+2026-10-25,Malaria,8,12,General Medicine
+2026-10-25,Seasonal Influenza,22,28,General Medicine
+2026-10-25,Fever-related,36,54,Pediatrics
+2026-10-25,Gastroenteritis,11,14,General Medicine
+2026-10-26,Dengue,17,29,General Medicine
+2026-10-26,Malaria,3,7,General Medicine
+2026-10-26,Seasonal Influenza,13,16,General Medicine
+2026-10-26,Fever-related,40,60,Pediatrics
+2026-10-26,Gastroenteritis,9,11,General Medicine
+2026-10-27,Dengue,18,29,General Medicine
+2026-10-27,Malaria,4,7,General Medicine
+2026-10-27,Seasonal Influenza,16,20,General Medicine
+2026-10-27,Fever-related,43,64,Pediatrics
+2026-10-27,Gastroenteritis,7,9,General Medicine
+2026-10-28,Dengue,20,34,General Medicine
+2026-10-28,Malaria,8,13,General Medicine
+2026-10-28,Seasonal Influenza,12,15,General Medicine
+2026-10-28,Fever-related,47,70,Pediatrics
+2026-10-28,Gastroenteritis,10,13,General Medicine
+2026-10-29,Dengue,25,43,General Medicine
+2026-10-29,Malaria,7,10,General Medicine
+2026-10-29,Seasonal Influenza,14,18,General Medicine
+2026-10-29,Fever-related,51,76,Pediatrics
+2026-10-29,Gastroenteritis,9,11,General Medicine
+2026-10-30,Dengue,28,47,General Medicine
+2026-10-30,Malaria,4,7,General Medicine
+2026-10-30,Seasonal Influenza,20,26,General Medicine
+2026-10-30,Fever-related,50,75,Pediatrics
+2026-10-30,Gastroenteritis,8,10,General Medicine

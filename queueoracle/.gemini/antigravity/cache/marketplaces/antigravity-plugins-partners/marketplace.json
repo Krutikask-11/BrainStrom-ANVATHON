@@ -1,0 +1,1771 @@
+{
+  "name": "antigravity-plugins-partners",
+  "description": "Antigravity partner plugins marketplace catalog.",
+  "plugins": [
+    {
+      "name": "stripe",
+      "displayName": "Stripe",
+      "version": "0.0.1",
+      "description": "Accept payments and grow your business. Stripe's official MCP server enables AI agents to manage customers, products, prices, payment links, invoices, subscriptions, and refunds, as well as search Stripe documentation.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/stripe/assets/logo.svg?v=fd9334d682aa",
+      "suggestedPrompts": [
+        "List our active Stripe products and their recurring subscription prices",
+        "Create a Stripe payment link for a $49/month Pro plan",
+        "Search Stripe documentation for how to verify webhook signatures"
+      ],
+      "author": {
+        "name": "Stripe",
+        "url": "https://stripe.com"
+      },
+      "homepage": "https://docs.stripe.com/mcp",
+      "repository": "https://github.com/stripe/ai",
+      "license": "MIT",
+      "keywords": [
+        "stripe",
+        "payments",
+        "webhooks",
+        "api",
+        "security",
+        "billing",
+        "mcp"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/stripe/stripe.zip?v=31a993078f6d",
+        "sha256": "31a993078f6d20347fd99712fd2d69dbbb7d8e383b6ec4005dbf92df6d89aea0"
+      }
+    },
+    {
+      "name": "atlassian-twg-cli",
+      "displayName": "Atlassian Teamwork Graph CLI",
+      "version": "1.0.14",
+      "description": "Teamwork Graph CLI is Atlassian's agent-first interface to your entire work context: Jira issues, Confluence pages, Bitbucket PRs, along with your connected third-party data sources. Purpose-built for coding agents like Antigravity (terminal or desktop), and powered by Atlassian's context graph. Try: \"draft a Jira issue from this PR and link it to the epic.\" Run /twg-setup after install to connect Atlassian Teamwork Graph CLI to Antigravity.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/atlassian-twg-cli/assets/twg-logo.png?v=9fb7883c2f5e",
+      "suggestedPrompts": [
+        "Help me implement [JIRA-123]. Retrieve the requirements, acceptance criteria, and linked design decisions. Inspect this repository and propose an implementation plan before changing code.",
+        "Investigate [JIRA-123] in this repository. Find related bugs, previous fixes, and relevant technical decisions. Recommend a fix and the tests needed to verify it.",
+        "Review my current changes against [JIRA-123] and its linked specification. Flag missed requirements, conflicting decisions, and missing tests."
+      ],
+      "keywords": [
+        "atlassian",
+        "twg",
+        "teamwork graph",
+        "teamwork graph cli",
+        "jira",
+        "confluence",
+        "bitbucket",
+        "jsm",
+        "jira service management",
+        "assets",
+        "teams",
+        "goals",
+        "projects",
+        "loom",
+        "trello",
+        "rovo",
+        "cli",
+        "atlassian context"
+      ],
+      "author": {
+        "name": "Atlassian",
+        "url": "https://www.atlassian.com"
+      },
+      "homepage": "https://developer.atlassian.com/cloud/twg-cli/",
+      "repository": "https://github.com/atlassian-labs/twg-plugins",
+      "license": "Apache-2.0",
+      "skills": [
+        "./antigravity/skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/atlassian-twg-cli/atlassian-twg-cli.zip?v=ca067e6bab47",
+        "sha256": "ca067e6bab47288ccb7ebf9cb2693419b50b7bae5c7aa0c503196b6c377031bd"
+      }
+    },
+    {
+      "name": "auth0",
+      "displayName": "Auth0",
+      "version": "2.6.0",
+      "description": "Add Auth0 authentication to any app: login, MFA, SSO, Organizations, RBAC, custom domains, and branding. Debug auth errors and migrate from other providers.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/auth0/assets/antigravity-logo.png?v=669b13a3355c",
+      "suggestedPrompts": [
+        "Add Auth0 login to my app",
+        "Debug why my Auth0 login is failing",
+        "Audit my Auth0 tenant's health and security"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "auth0",
+        "authentication",
+        "authorization",
+        "oauth",
+        "oidc",
+        "mfa",
+        "sso",
+        "rbac",
+        "jwt",
+        "sdk",
+        "migration",
+        "security",
+        "universal-login",
+        "custom-domains",
+        "acul",
+        "quickstart"
+      ],
+      "author": {
+        "name": "Auth0",
+        "email": "support@auth0.com",
+        "url": "https://auth0.com"
+      },
+      "homepage": "https://auth0.com/docs/quickstart/agent-skills",
+      "repository": "https://github.com/auth0/agent-skills",
+      "license": "Apache-2.0",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/auth0/auth0.zip?v=81ce508eef7b",
+        "sha256": "81ce508eef7ba7a03fb11e07690d8361cb87b279fb2ff91715f08f991e99a928"
+      }
+    },
+    {
+      "name": "base44",
+      "displayName": "Base44",
+      "version": "1.0.0-beta.1",
+      "description": "Build and deploy Base44 full-stack apps: CLI project management, JavaScript/TypeScript SDK development, and production troubleshooting skills.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/base44/assets/logo.svg?v=30add2c05bdb",
+      "suggestedPrompts": [
+        "Create a new Base44 app with a Task entity and deploy it",
+        "Add a backend function to my Base44 app that sends a welcome email",
+        "Check my Base44 function logs and find why requests are failing"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "base44",
+        "full-stack",
+        "sdk",
+        "cli",
+        "deployment",
+        "entities",
+        "backend-functions",
+        "javascript",
+        "typescript"
+      ],
+      "author": {
+        "name": "base44",
+        "url": "https://base44.com"
+      },
+      "homepage": "https://docs.base44.com",
+      "repository": "https://github.com/base44/skills",
+      "license": "MIT",
+      "skills": [
+        "./skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/base44/base44.zip?v=ed6b6969a860",
+        "sha256": "ed6b6969a86056f0ae0e43dad89cbac6ca4f5dd4706a8d1e3e3d9c5605231165"
+      }
+    },
+    {
+      "name": "browse",
+      "displayName": "Browserbase",
+      "version": "0.3.0",
+      "description": "Give your agent a real browser: navigate, click, type, screenshot, and extract data from any site, locally or on Browserbase cloud browsers.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/browse/assets/logo-antigravity.svg?v=f327617cc584",
+      "suggestedPrompts": [
+        "Go to Hacker News and get the top 5 stories",
+        "Open browserbase.com and take a screenshot of the pricing page",
+        "Find the latest release notes for Stagehand and summarize them"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "browser",
+        "automation",
+        "browserbase",
+        "stagehand",
+        "web",
+        "scraping"
+      ],
+      "author": {
+        "name": "Browserbase",
+        "email": "support@browserbase.com",
+        "url": "https://browserbase.com"
+      },
+      "homepage": "https://docs.browserbase.com",
+      "repository": "https://github.com/browserbase/browse-plugin",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/browse/browse.zip?v=c046ede01539",
+        "sha256": "c046ede015399b61c0a04065ae3e1cfab1c85b8d5463e16899981ffcf4083c40"
+      }
+    },
+    {
+      "name": "canva",
+      "displayName": "Canva",
+      "version": "1.0.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/canva/assets/logo-canva.svg?v=49512b474d4d",
+      "description": "Create, edit, review, resize, and brand-check Canva designs with the Canva MCP server.",
+      "suggestedPrompts": [
+        "Resize this Canva design for Instagram and LinkedIn",
+        "Review this Canva design and suggest improvements",
+        "Check this Canva design against my brand kit"
+      ],
+      "author": {
+        "name": "Canva"
+      },
+      "keywords": [
+        "canva",
+        "design",
+        "presentation",
+        "social media",
+        "brand kit",
+        "ai generation",
+        "flyer",
+        "poster",
+        "graphic design",
+        "marketing"
+      ],
+      "skills": [
+        "./skills"
+      ],
+      "homepage": "https://www.canva.com/developers/",
+      "repository": "https://github.com/canva-sdks/canva-skills",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/canva/canva.zip?v=cc7d2604912f",
+        "sha256": "cc7d2604912f9ccdf9314b878fed475ddcdc39a041cbcdff6e80ed3f325115ee"
+      }
+    },
+    {
+      "name": "coderabbit",
+      "displayName": "CodeRabbit",
+      "description": "AI-powered code review and review-comment autofix, powered by CodeRabbit.",
+      "version": "1.2.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/coderabbit/assets/logo.png?v=d985c3164883",
+      "author": {
+        "name": "CodeRabbit",
+        "url": "https://coderabbit.ai"
+      },
+      "homepage": "https://docs.coderabbit.ai/cli",
+      "repository": "https://github.com/coderabbitai/skills",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/coderabbit/coderabbit.zip?v=0b866c9be215",
+        "sha256": "0b866c9be215730ffdf42244e953f9aa5a7f4539422c844cbc3b582039d4d261"
+      }
+    },
+    {
+      "name": "context7",
+      "displayName": "Context7",
+      "version": "1.0.1",
+      "description": "Up-to-date documentation lookup. Pull version-specific documentation and code examples directly from source repositories into your LLM context.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/context7/assets/logo.svg?v=f7ed04485a3c",
+      "suggestedPrompts": [
+        "How do I set up a proxy in the latest Next.js?",
+        "Show me how to define relations in Prisma",
+        "What are the Supabase auth methods?"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "documentation",
+        "context",
+        "mcp",
+        "library-docs"
+      ],
+      "author": {
+        "name": "Upstash",
+        "email": "context7@upstash.com",
+        "url": "https://upstash.com"
+      },
+      "homepage": "https://context7.com",
+      "repository": "https://github.com/upstash/context7",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/context7/context7.zip?v=5d9ef0b58f8e",
+        "sha256": "5d9ef0b58f8e0e327d0e445166885cdb1eac4013d80c1760dee26f857eafed57"
+      }
+    },
+    {
+      "name": "crowdstrike",
+      "displayName": "CrowdStrike Falcon",
+      "version": "1.1.0",
+      "description": "Use the official CrowdStrike-hosted MCP server to work across Falcon: detections, cases, threat intel, SIEM, hosts, vulnerabilities, cloud, and more.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/crowdstrike/assets/falcon.svg?v=c547e06f8071",
+      "suggestedPrompts": [
+        "Show me new high severity detections from the last 7 days",
+        "Find threat actors targeting financial services",
+        "Which MCP servers have AI agents connected to across the fleet?"
+      ],
+      "category": "Security",
+      "keywords": [
+        "crowdstrike",
+        "falcon",
+        "security",
+        "edr",
+        "xdr",
+        "siem",
+        "threat-intelligence",
+        "cloud-security",
+        "identity",
+        "soc"
+      ],
+      "author": {
+        "name": "CrowdStrike",
+        "email": "cloud-integrations-alliances@crowdstrike.com",
+        "url": "https://www.crowdstrike.com"
+      },
+      "homepage": "https://developer.crowdstrike.com/falcon-mcp/overview/",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/crowdstrike/crowdstrike.zip?v=2338f5491941",
+        "sha256": "2338f5491941bb6b0cda468ba4a4f63bb8b79eab7be2155c69783693ed029705"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "databricks",
+      "displayName": "Databricks",
+      "description": "Databricks skills for the CLI, Apps, Lakebase, Model Serving, Lakeflow Jobs, Spark Declarative Pipelines, Declarative Automation Bundles (DABs), and classic-to-serverless migration.",
+      "version": "0.2.36",
+      "author": {
+        "name": "Databricks",
+        "url": "https://databricks.com"
+      },
+      "homepage": "https://github.com/databricks/databricks-agent-skills",
+      "repository": "https://github.com/databricks/databricks-agent-skills",
+      "license": "LicenseRef-Databricks",
+      "keywords": [
+        "databricks",
+        "cli",
+        "data-discovery",
+        "apps",
+        "app-design",
+        "lakebase",
+        "model-serving",
+        "jobs",
+        "pipelines",
+        "dabs",
+        "serverless-compute",
+        "serverless",
+        "vector-search",
+        "agent-bricks",
+        "ai-functions",
+        "ai-runtime",
+        "aibi-dashboards",
+        "apps-python",
+        "dbsql",
+        "docs",
+        "execution-compute",
+        "genie-agents",
+        "iceberg",
+        "lakeflow-connect",
+        "metric-views",
+        "ml-training",
+        "mlflow-evaluation",
+        "python-sdk",
+        "setup-local",
+        "structured-streaming",
+        "synthetic-data",
+        "unity-catalog",
+        "unity-gateway",
+        "pdf-generation",
+        "zerobus",
+        "data-engineering"
+      ],
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/databricks/assets/databricks.png?v=06873c31ebda",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/databricks/databricks.zip?v=e319cf402bfc",
+        "sha256": "e319cf402bfcaf930061bfc8f48b5447559ea35ec8e429e6d7a9aa4bc5d84e3a"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "datadog",
+      "displayName": "Datadog",
+      "version": "0.1.2",
+      "description": "Use Datadog directly in Antigravity through a preconfigured Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/datadog/assets/logo.png?v=7bf6bcac5c85",
+      "author": {
+        "name": "Datadog",
+        "url": "https://www.datadoghq.com"
+      },
+      "homepage": "https://github.com/datadog-labs/antigravity-plugin",
+      "repository": "https://github.com/datadog-labs/antigravity-plugin.git",
+      "license": "Apache-2.0",
+      "keywords": [
+        "datadog",
+        "infrastructure",
+        "mcp",
+        "observability",
+        "productivity"
+      ],
+      "suggestedPrompts": [
+        "Show me error logs for the \"checkout\" service from the last hour",
+        "What monitors are currently alerting?",
+        "Find traces for service \"api-gateway\" with latency > 500ms"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/datadog/datadog.zip?v=a8b39657e326",
+        "sha256": "a8b39657e3269a701675b7e9b7e84dad107c20d38d541ff3fc805ab2042fa67d"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "dropbox",
+      "version": "1.0.0",
+      "displayName": "Dropbox",
+      "description": "Connect Antigravity to Dropbox to search, inspect, summarize, share, collect uploads, organize folders, and clean up files with confirmation for write actions.",
+      "author": {
+        "name": "Dropbox"
+      },
+      "license": "Apache-2.0",
+      "homepage": "https://www.dropbox.com",
+      "category": "Productivity",
+      "keywords": [
+        "dropbox",
+        "files",
+        "sharing",
+        "folders"
+      ],
+      "suggestedPrompts": [
+        "Find and summarize the Q4 planning deck in Dropbox",
+        "Create a shared link for the Launch folder",
+        "Review duplicate exports in this folder and ask before deleting anything"
+      ],
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/dropbox/assets/logo.png?v=a1d079dbccc3",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/dropbox/dropbox.zip?v=45a0ff0b3d11",
+        "sha256": "45a0ff0b3d1110ba2ac29d5efbf155c9b1d709259e19613d26c87c42fee51d05"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "dynatrace",
+      "displayName": "Dynatrace",
+      "version": "8.0.1",
+      "description": "Investigate production issues with real Dynatrace data: problems and root causes, logs, metrics, traces, and vulnerabilities, via skills and the MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/dynatrace/Dynatrace_Logo_color_positive.png?v=5294459904f0",
+      "suggestedPrompts": [
+        "What are the active problems in my Dynatrace environment and their root causes?",
+        "Show me the top error logs from the last hour and the services producing them",
+        "Write a DQL query for the p95 response time of my slowest services"
+      ],
+      "category": "Observability",
+      "author": {
+        "name": "Dynatrace",
+        "url": "https://www.dynatrace.com"
+      },
+      "homepage": "https://www.dynatrace.com",
+      "repository": "https://github.com/Dynatrace/dynatrace-for-ai",
+      "license": "Apache-2.0",
+      "keywords": [
+        "dynatrace",
+        "observability",
+        "monitoring",
+        "dql",
+        "apm",
+        "logs",
+        "tracing"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/dynatrace/dynatrace.zip?v=c5510e9c9cf8",
+        "sha256": "c5510e9c9cf818a5ede4ba9f129cf45962c4a8de2333ea90ba176f19fe8c5ed5"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "author": {
+        "email": "support@endor.ai",
+        "name": "Endor Labs",
+        "url": "https://www.endorlabs.com/"
+      },
+      "category": "Security",
+      "description": "Packaged workflows for SCA remediation, AI SAST triage, CI/CD posture, malware response, findings review, Endor Labs setup, and more.",
+      "displayName": "Endor Labs Agent Kit",
+      "homepage": "https://github.com/endorlabs/ai-plugins",
+      "keywords": [
+        "endor-labs",
+        "security",
+        "dependencies",
+        "endorctl",
+        "sca",
+        "sast",
+        "agentic remediation",
+        "appsec"
+      ],
+      "license": "MIT",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/endor-labs-agent-kit/assets/logo.png?v=3bc1cce0aa35",
+      "name": "endor-labs-agent-kit",
+      "repository": "https://github.com/endorlabs/ai-plugins",
+      "suggestedPrompts": [
+        "Use the SCA remediation agent to fix the P0 findings in this repo for my tenant",
+        "Triage the top AI SAST findings for my repo and propose a PR to fix them",
+        "Plan a safe dependency remediation using Endor Labs evidence"
+      ],
+      "version": "2.2.3",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/endor-labs-agent-kit/endor-labs-agent-kit.zip?v=796e9e2afc1a",
+        "sha256": "796e9e2afc1a5b8574b75af6979b7e898f1d7a535f6288c7061bb65521a6434a"
+      }
+    },
+    {
+      "name": "figma",
+      "displayName": "Figma",
+      "version": "2.2.163",
+      "description": "Turn Figma designs into production code, map components with Code Connect, and create or edit Figma files in Antigravity.",
+      "author": {
+        "name": "Figma",
+        "url": "https://www.figma.com"
+      },
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/figma/Figma_Icon_Full-color_.svg?v=9798b710e015",
+      "homepage": "https://github.com/figma/mcp-server-guide",
+      "repository": "https://github.com/figma/mcp-server-guide",
+      "keywords": [
+        "figma",
+        "design",
+        "mcp",
+        "ui",
+        "code-connect"
+      ],
+      "category": "Design",
+      "mcpServers": "./.antigravity-plugin/mcp_config.json",
+      "suggestedPrompts": [
+        "Implement this Figma frame as a React component: <link>",
+        "Connect my Button component to its Figma component with Code Connect",
+        "Create a Figma design for a login screen that matches my design system"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/figma/figma.zip?v=0c37bc64abc4",
+        "sha256": "0c37bc64abc429f50c806af8e626ea8fc268038a0f045deb8991800a53ee6124"
+      }
+    },
+    {
+      "name": "harness-antigravity",
+      "displayName": "Harness",
+      "version": "1.0.0",
+      "description": "Build and debug pipelines, manage deployments, investigate security findings, and operate Harness with connected tools and reusable workflow skills.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/harness-antigravity/assets/logo.png?v=75396a6aec74",
+      "suggestedPrompts": [
+        "List recent failed pipelines in my Harness project and explain the failures.",
+        "Create a CI pipeline for this repository and show me the YAML before saving.",
+        "Review deployment readiness for my Harness service."
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "harness",
+        "ci-cd",
+        "pipelines",
+        "deployments",
+        "security",
+        "feature-flags"
+      ],
+      "author": {
+        "name": "Harness",
+        "url": "https://www.harness.io"
+      },
+      "homepage": "https://developer.harness.io",
+      "license": "Apache-2.0",
+      "skills": [
+        "./skills/pipelines",
+        "./skills/infrastructure",
+        "./skills/access-control",
+        "./skills/fme",
+        "./skills/database",
+        "./skills/platform",
+        "./skills/security",
+        "./skills/observability-governance",
+        "./skills/agents"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "repository": "https://github.com/harness/harness-antigravity",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/harness-antigravity/harness-antigravity.zip?v=25281ecbe14a",
+        "sha256": "25281ecbe14a1a59721f20c7a397031bfe72e6efd35a297a3da97057f7bd9579"
+      }
+    },
+    {
+      "name": "intercom",
+      "displayName": "Intercom",
+      "version": "0.2.0",
+      "description": "Search Intercom conversations, contacts, and companies, spot support trends, and install the Intercom Messenger with secure identity verification.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/intercom/assets/logo.svg?v=bc88e41520ef",
+      "suggestedPrompts": [
+        "Show me the most common topics in open Intercom conversations this week",
+        "Summarize every Intercom conversation from jane@example.com",
+        "Install the Intercom Messenger in this app with identity verification"
+      ],
+      "keywords": [
+        "intercom",
+        "fin",
+        "customer-support",
+        "helpdesk",
+        "conversations",
+        "contacts",
+        "messenger",
+        "crm"
+      ],
+      "author": {
+        "name": "Fin",
+        "url": "https://fin.ai"
+      },
+      "homepage": "https://developers.intercom.com",
+      "repository": "https://github.com/intercom/claude-plugin-external",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/intercom/intercom.zip?v=b63fd097c6e7",
+        "sha256": "b63fd097c6e7942c5b5050ff3ec5bf2f7429c351bc1b47c5695b4ef603294f3f"
+      }
+    },
+    {
+      "name": "keenable",
+      "displayName": "Keenable",
+      "version": "1.0.0",
+      "description": "Search the web and read any page as clean markdown with Keenable, a search engine built for AI agents. Keyless: no signup or API key needed.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/keenable/assets/logo.png?v=29943d758cfc",
+      "suggestedPrompts": [
+        "Find the release notes for the libraries in this project since our pinned versions and list the breaking changes",
+        "Search github.com for reports of this error from the last 30 days and tell me if there is a known fix",
+        "Research the leading agent observability tools and compare them in a table with a source for every claim"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "web-search",
+        "search",
+        "web",
+        "research",
+        "content-extraction",
+        "mcp",
+        "keyless"
+      ],
+      "author": {
+        "name": "Keenable",
+        "email": "support@keenable.ai",
+        "url": "https://keenable.ai"
+      },
+      "homepage": "https://keenable.ai",
+      "repository": "https://github.com/keenableai/keenable-antigravity",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/keenable/keenable.zip?v=b6d5bf8d427c",
+        "sha256": "b6d5bf8d427c47cafd5f4f0c51eb7be91eb9bfcaff806010f2e768918b828ece"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "leapwork-play",
+      "displayName": "Leapwork Play",
+      "version": "1.0.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/leapwork-play/logo.png?v=e786db72e014",
+      "description": "Create, run and debug Leapwork Play tests and runlists, build agents, and hand work to Play's AI workflows, right from Antigravity.",
+      "author": {
+        "name": "Leapwork",
+        "url": "https://leapwork.ai/"
+      },
+      "homepage": "https://leapwork.ai/",
+      "repository": "https://github.com/leapwork/play-antigravity-plugin",
+      "keywords": [
+        "leapwork",
+        "testing",
+        "playwright",
+        "test-automation",
+        "qa",
+        "mcp"
+      ],
+      "suggestedPrompts": [
+        "Create a test case for this bug in Leapwork",
+        "Run my Leapwork runlist and show me what failed",
+        "Find out why my last Leapwork run failed and fix the failing step"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/leapwork-play/leapwork-play.zip?v=4f73c2c3cc23",
+        "sha256": "4f73c2c3cc239018d9454e285b2dae0705a2f8d048b37228f929dd091c3ed926"
+      }
+    },
+    {
+      "name": "linear",
+      "displayName": "Linear",
+      "version": "1.0.0",
+      "description": "The product development system for teams and agents. Manage issues, projects, and documents across your Linear workspace from Antigravity.",
+      "author": {
+        "name": "Linear",
+        "email": "support@linear.app",
+        "url": "https://linear.app"
+      },
+      "homepage": "https://linear.app/docs/mcp",
+      "repository": "https://github.com/linear/antigravity-plugin",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/linear/assets/logo.svg?v=bcf0005a7d87",
+      "category": "Productivity",
+      "keywords": [
+        "linear",
+        "issues",
+        "projects",
+        "productivity"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "suggestedPrompts": [
+        "Show my assigned Linear issues, grouped by priority.",
+        "Summarize recent updates to my Linear projects.",
+        "Find Linear issues related to the code I am working on."
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/linear/linear.zip?v=3ec93af5ab5f",
+        "sha256": "3ec93af5ab5fb4b352467d49b201954ad807caf869533d350db71ddb4ce6adfe"
+      }
+    },
+    {
+      "name": "mobbin",
+      "displayName": "Mobbin",
+      "version": "1.5.0",
+      "description": "Give your AI agent 600,000+ real app screens, and the skills to use them. Includes the Mobbin MCP and a skill that redesigns your screen from patterns real apps ship, in your own design system, with the references behind every change.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/mobbin/assets/logo.svg?v=35b5220352a5",
+      "suggestedPrompts": [
+        "Find home screen examples from banking apps and save them to a collection",
+        "Compare how AI tools design their pricing sections",
+        "Review my paywall screen against the ones I saved in collections"
+      ],
+      "author": {
+        "name": "Mobbin",
+        "email": "support@mobbin.com",
+        "url": "https://mobbin.com"
+      },
+      "homepage": "https://docs.mobbin.com/mcp/introduction",
+      "repository": "https://github.com/mobbin/skills",
+      "license": "MIT",
+      "keywords": [
+        "mobbin",
+        "design",
+        "mcp",
+        "ui",
+        "ux"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/mobbin/mobbin.zip?v=1e4440a59a76",
+        "sha256": "1e4440a59a7684639e93953dbaac2a58e6933de1f308852c6fbf450d1cf1f178"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "monday",
+      "displayName": "monday.com",
+      "version": "1.2.0",
+      "description": "Plan and track work in monday.com from Antigravity: create, update and assign items, write docs, and build forms that turn requests into items.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/monday/assets/logo.svg?v=03b7984f0645",
+      "suggestedPrompts": [
+        "Onboard me to monday.com",
+        "Create a monday.com item for each TODO in this file and assign them to me",
+        "Create a monday.com bug report form with summary, steps to reproduce and severity questions"
+      ],
+      "keywords": [
+        "monday",
+        "project-management",
+        "work-management",
+        "tasks",
+        "boards",
+        "crm"
+      ],
+      "author": {
+        "name": "monday.com",
+        "email": "support@monday.com",
+        "url": "https://monday.com"
+      },
+      "homepage": "https://monday.com/w/mcp",
+      "repository": "https://github.com/mondaycom/antigravity-plugin",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/monday/monday.zip?v=afd8da323ba9",
+        "sha256": "afd8da323ba961586f8e7d7c9254e9cb0aeddb969dea1525cf09c0d4af0d272b"
+      }
+    },
+    {
+      "name": "mongodb-atlas",
+      "displayName": "MongoDB Atlas (Managed MCP)",
+      "version": "1.2.1",
+      "description": "Official Antigravity plugin for MongoDB Atlas (hosted MCP Server + Skills). Connect to the MongoDB-hosted Atlas MCP server, explore data, manage collections, optimize queries, generate reliable code, implement best practices, develop advanced features, and more.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/mongodb-atlas/assets/logo.png?v=e70217b2e33d",
+      "suggestedPrompts": [
+        "List my Atlas clusters and the databases on each one",
+        "Review the schema of my orders collection and suggest improvements",
+        "Find slow queries on my Atlas cluster and recommend indexes"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/mongodb-atlas/mongodb-atlas.zip?v=e8342cad5b8e",
+        "sha256": "e8342cad5b8e3a77afa675682f9fdfdea55c9a688113dd932a6679141d55ec10"
+      }
+    },
+    {
+      "name": "netlify",
+      "displayName": "Netlify",
+      "version": "1.7.0",
+      "description": "Build and deploy on Netlify: functions, edge functions, blobs, database, identity, forms, image CDN, caching, and AI Gateway, plus the Netlify MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/netlify/assets/logo.svg?v=fac79c147eb4",
+      "suggestedPrompts": [
+        "Deploy this project to Netlify",
+        "Add a Netlify Function that serves a JSON API endpoint",
+        "Store and query this app's data with Netlify Database"
+      ],
+      "keywords": [
+        "netlify",
+        "deploy",
+        "serverless",
+        "functions",
+        "edge-functions",
+        "blobs",
+        "database",
+        "image-cdn",
+        "forms",
+        "mcp"
+      ],
+      "author": {
+        "name": "Netlify",
+        "url": "https://www.netlify.com"
+      },
+      "homepage": "https://docs.netlify.com",
+      "repository": "https://github.com/netlify/context-and-tools",
+      "license": "MIT",
+      "skills": [
+        "./skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/netlify/netlify.zip?v=8c834861f25c",
+        "sha256": "8c834861f25ccc12e5446ec9526779ef38d490b23ac1442d14fc49b6f9242118"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "notion",
+      "displayName": "Notion",
+      "description": "Connect Antigravity to your Notion workspace with the Notion MCP server, plus skills for research, documentation, meeting prep, specs, trackers, and project updates.",
+      "version": "0.1.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/notion/logo.svg?v=76d090749b28",
+      "suggestedPrompts": [
+        "Set up Notion so you can use my workspace as context",
+        "Turn this spec in Notion into an implementation plan with tasks",
+        "Write a weekly update for my project from what changed in Notion"
+      ],
+      "author": {
+        "name": "Notion Labs",
+        "url": "https://www.notion.com"
+      },
+      "homepage": "https://developers.notion.com/docs/notion-mcp",
+      "repository": "https://github.com/makenotion/notion-cookbook/tree/main/plugins/antigravity",
+      "license": "MIT",
+      "keywords": [
+        "notion",
+        "mcp",
+        "productivity",
+        "documentation",
+        "knowledge"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/notion/notion.zip?v=795b047957c8",
+        "sha256": "795b047957c8daac04ff8277968381acf828e97fe575eaaa7b4cde56d96373ca"
+      }
+    },
+    {
+      "name": "pandadoc",
+      "version": "1.0.0",
+      "description": "Create and send proposals, quotes, and contracts for e-signature. Track signing progress and identify documents that need follow-up.",
+      "author": {
+        "name": "PandaDoc",
+        "url": "https://www.pandadoc.com"
+      },
+      "keywords": [
+        "pandadoc",
+        "documents",
+        "proposals",
+        "quotes",
+        "contracts",
+        "e-signature",
+        "sales",
+        "legal",
+        "workflow"
+      ],
+      "license": "MIT",
+      "homepage": "https://developers.pandadoc.com/docs/how-to-use-the-pandadoc-mcp-server",
+      "repository": "https://github.com/PandaDoc/mcp-server-guide",
+      "displayName": "PandaDoc",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/pandadoc/assets/pd-logo_400x400.png?v=958dc1038490",
+      "suggestedPrompts": [
+        "List my 5 most recently modified PandaDoc documents with their status.",
+        "Show my signing pipeline and identify documents that are stuck.",
+        "Find unsigned documents and draft follow-up messages without sending them."
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/pandadoc/pandadoc.zip?v=0aa458200f3b",
+        "sha256": "0aa458200f3bdb277f9956380307897d1d7ab0c8b6d1afbb8b7cbd161e90c02f"
+      }
+    },
+    {
+      "name": "parallel",
+      "displayName": "Parallel",
+      "version": "0.10.1",
+      "description": "Search the live web and fetch page content with Parallel's hosted MCP server. Free access with no Parallel account, API key, or Parallel CLI required.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/parallel/assets/antigravity.svg?v=64c6dbe6aae7",
+      "suggestedPrompts": [
+        "Use Parallel to find the upgrade guide for this project's main framework and tell me what we'd need to change.",
+        "Use Parallel to find official docs and examples for the feature we're building. Match the versions in this project.",
+        "Use Parallel to look up this error in official docs and GitHub issues, then suggest a fix with sources."
+      ],
+      "author": {
+        "name": "Parallel Web Systems",
+        "email": "support@parallel.ai",
+        "url": "https://parallel.ai"
+      },
+      "homepage": "https://docs.parallel.ai/search/search-mcp",
+      "repository": "https://github.com/parallel-web/parallel-antigravity-plugin",
+      "license": "MIT",
+      "keywords": [
+        "parallel",
+        "web-search",
+        "page-extraction",
+        "mcp"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/parallel/parallel.zip?v=7b4c51963b83",
+        "sha256": "7b4c51963b83ef08f43b3ae3ac24882dad0c09e43877f1c60611ecb5cf256223"
+      }
+    },
+    {
+      "name": "ping-identity-pingone",
+      "description": "Agent plugin for PingOne multi-tenant. Includes skills and a remote MCP server that lets AI agents configure and monitor your PingOne environments.",
+      "skills": [
+        "./skills"
+      ],
+      "displayName": "PingOne",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/ping-identity-pingone/assets/ping-logo-square.svg?v=58756965692b",
+      "suggestedPrompts": [
+        "Register a new OIDC application and connect it to a login flow in my PingOne environment.",
+        "Enable MFA for this user \u2014 complete common user security and access tasks.",
+        "Investigate audit logs for suspicious activity, jamie@example.com had trouble signing on this afternoon. What happened?"
+      ],
+      "category": [
+        "Identity and Access Management",
+        "Security",
+        "Developer Tools"
+      ],
+      "version": "1.0.0",
+      "author": {
+        "name": "Ping Identity",
+        "email": "devex@pingidentity.com",
+        "url": "https://www.pingidentity.com"
+      },
+      "homepage": "https://developer.pingidentity.com",
+      "repository": "https://github.com/pingidentity/agent-plugins",
+      "license": "MIT",
+      "keywords": [
+        "ping",
+        "pingone",
+        "multi-tenant",
+        "davinci",
+        "sso",
+        "authentication",
+        "mfa",
+        "identity",
+        "ciam"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/ping-identity-pingone/ping-identity-pingone.zip?v=1478a5e75499",
+        "sha256": "1478a5e754990175f4864e9222c46f23ee08e0e975d1b37b8a32b2b6cb38af59"
+      }
+    },
+    {
+      "name": "postman",
+      "displayName": "Postman",
+      "version": "0.1.0",
+      "description": "Equip Antigravity with specialized Postman skills for the complete API lifecycle. Discover, design, test, document, mock, monitor, and improve APIs through agent-friendly, filesystem-first workflows.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/postman/assets/logo.svg?v=35c6b05db064",
+      "suggestedPrompts": [
+        "Create a collection for the API in this repo, add tests, and run them.",
+        "I'm changing the credit card service. What APIs in my company use it?",
+        "What depends on the billing-api collection, and what would changing its response schema break?"
+      ],
+      "category": "Developer Tools",
+      "author": {
+        "name": "Postman",
+        "email": "postman-plugins@postman.com",
+        "url": "https://github.com/postmanlabs"
+      },
+      "homepage": "https://github.com/postmanlabs/postman-plugin",
+      "repository": "https://github.com/postmanlabs/postman-plugin",
+      "license": "Apache-2.0",
+      "keywords": [
+        "postman",
+        "api",
+        "mocking",
+        "monitoring",
+        "ci",
+        "documentation",
+        "ai-readiness",
+        "flows"
+      ],
+      "skills": [
+        "./skills"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/postman/postman.zip?v=55c2f795ebd4",
+        "sha256": "55c2f795ebd41739a3ae3a774aa2265dc3110fc2de9183d3ec8054f09f865a97"
+      }
+    },
+    {
+      "name": "qodo",
+      "displayName": "Qodo",
+      "version": "2.1.2",
+      "description": "Set up Qodo, explore code and repository history, review local changes, and resolve pull-request findings directly from Antigravity.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/qodo/assets/qodo.png?v=808b1d92b783",
+      "suggestedPrompts": [
+        "Connect my Qodo account and verify this coding agent is ready.",
+        "Explain how this code works, including its history and cross-repository impact.",
+        "Review my local changes with Qodo before I push them."
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "qodo",
+        "code-review",
+        "code-intelligence",
+        "standards",
+        "coding-agents"
+      ],
+      "author": {
+        "name": "Qodo",
+        "email": "support@qodo.ai",
+        "url": "https://www.qodo.ai"
+      },
+      "homepage": "https://www.qodo.ai",
+      "repository": "https://github.com/qodo-ai/qodo-skills",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/qodo/qodo.zip?v=54ca5958e85e",
+        "sha256": "54ca5958e85e1d80e9ddbcb2564361784e6042ebbe1ce59b3fad9416cc602561"
+      }
+    },
+    {
+      "name": "railway",
+      "displayName": "Railway",
+      "version": "1.7.0",
+      "description": "Deploy, configure, monitor, and troubleshoot apps, databases, and infrastructure on Railway from Antigravity with Railway's agent skill and hosted MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/railway/assets/logo.svg?v=b02d5fa9e12d",
+      "suggestedPrompts": [
+        "Deploy this app to Railway",
+        "Check the Railway status for this project",
+        "Debug my latest failed Railway deployment"
+      ],
+      "category": "Cloud",
+      "keywords": [
+        "railway",
+        "deployment",
+        "hosting",
+        "infrastructure",
+        "databases",
+        "mcp",
+        "agent-skills"
+      ],
+      "author": {
+        "name": "Railway",
+        "email": "contact@railway.com",
+        "url": "https://railway.com"
+      },
+      "homepage": "https://docs.railway.com/agents",
+      "repository": "https://github.com/railwayapp/railway-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/railway/railway.zip?v=ade91805380b",
+        "sha256": "ade91805380b9e9b906ea36706cdd32d2eed6e54349ed2bed12a837ff4801de6"
+      }
+    },
+    {
+      "name": "semrush",
+      "displayName": "Semrush",
+      "version": "1.0.0",
+      "description": "SEO workflows on live Semrush data: keyword research, site audits, backlinks, competitor, traffic and market analytics, PPC, and AI brand visibility.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/semrush/assets/logo.png?v=01c749c81950",
+      "suggestedPrompts": [
+        "Run a technical SEO audit on example.com",
+        "Find keyword ideas for project management software",
+        "Who are the real search competitors of example.com?"
+      ],
+      "category": [
+        "Marketing",
+        "Productivity"
+      ],
+      "keywords": [
+        "semrush",
+        "seo",
+        "keyword-research",
+        "backlinks",
+        "site-audit",
+        "serp",
+        "competitor-analysis",
+        "ai-visibility",
+        "ai-search",
+        "traffic-analytics",
+        "ppc",
+        "marketing"
+      ],
+      "author": {
+        "name": "Semrush Inc.",
+        "url": "https://www.semrush.com"
+      },
+      "homepage": "https://developer.semrush.com/api/v4/introduction/semrush-mcp/",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/semrush/semrush-antigravity-plugin"
+      },
+      "license": "Apache-2.0",
+      "skills": [
+        "./skills"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/semrush/semrush.zip?v=4a6b2d5205eb",
+        "sha256": "4a6b2d5205eb0c7dbbeffa13213c831bc7506bf3bba62364cce461c4f091e454"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "sentinelone-purple-mcp",
+      "displayName": "SentinelOne Purple AI",
+      "version": "0.7.0",
+      "description": "Query your SentinelOne Singularity Console from Antigravity through a self-hosted, read-only Purple AI MCP server. Requires an active console deployment, your console URL, and an API token.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/sentinelone-purple-mcp/assets/logo.svg?v=d7caad716b33",
+      "author": {
+        "name": "SentinelOne",
+        "url": "https://www.sentinelone.com"
+      },
+      "homepage": "https://github.com/Sentinel-One/purple-mcp",
+      "repository": "https://github.com/Sentinel-One/purple-mcp",
+      "license": "MIT",
+      "keywords": [
+        "sentinelone",
+        "purple-ai",
+        "security",
+        "edr",
+        "threat-hunting",
+        "soc",
+        "mcp"
+      ],
+      "suggestedPrompts": [
+        "Summarize the highest-severity open alerts in my SentinelOne console",
+        "Ask Purple AI which endpoints showed suspicious PowerShell activity this week",
+        "Show me the vulnerable applications in my SentinelOne inventory"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/sentinelone-purple-mcp/sentinelone-purple-mcp.zip?v=039c830718e7",
+        "sha256": "039c830718e7de264cfb9c489dd69fd1e3754ead4e55a7aa01699a17b363424a"
+      }
+    },
+    {
+      "name": "sentry",
+      "displayName": "Sentry",
+      "version": "1.4.6",
+      "description": "Set up Sentry monitoring, investigate production errors, and configure alerts and releases with expert skills and live context from your Sentry projects.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/sentry/assets/logo.svg?v=a9d3c64a39a4",
+      "suggestedPrompts": [
+        "Set up Sentry in this project",
+        "Investigate my most frequent production errors",
+        "Configure alerts for my Sentry project"
+      ],
+      "keywords": [
+        "sentry",
+        "debugging",
+        "monitoring",
+        "error-tracking"
+      ],
+      "author": {
+        "name": "Sentry",
+        "url": "https://sentry.io"
+      },
+      "homepage": "https://sentry.io",
+      "repository": "https://github.com/getsentry/plugin-antigravity",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/sentry/sentry.zip?v=67c329e2cd93",
+        "sha256": "67c329e2cd932228262a9bf8f6996d3322ee8a0dcd4cd9c8daeab68c5ec646bb"
+      }
+    },
+    {
+      "name": "soc",
+      "displayName": "Exabeam Agentic SOC",
+      "version": "1.1.0",
+      "description": "Triage Exabeam New-Scale alerts and cases end to end: gather the evidence, map MITRE, reach a verdict, and record it behind an approval step.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/soc/assets/icon.png?v=3e9ef6cea816",
+      "suggestedPrompts": [
+        "Triage my open Exabeam cases and tell me what to look at first",
+        "Investigate the highest-risk Exabeam alert from the last 24 hours and give me a verdict",
+        "Find the noisiest Exabeam detection rules and propose tuning"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/soc/soc.zip?v=634de7290e3c",
+        "sha256": "634de7290e3cdaf41d937e62b8824489582bf3cadbb8e4ef67427ffa72569c95"
+      }
+    },
+    {
+      "name": "supabase",
+      "displayName": "Supabase",
+      "version": "0.1.17",
+      "description": "Official Supabase plugin for Antigravity with Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/supabase/assets/logo.svg?v=db8b96bf452d",
+      "suggestedPrompts": [
+        "Set up Supabase Auth and protected routes for my app",
+        "Review my Supabase schema and RLS policies for security issues",
+        "Optimize my Postgres queries and indexes using Supabase best practices"
+      ],
+      "category": "Databases",
+      "keywords": [
+        "supabase",
+        "postgres",
+        "database",
+        "backend",
+        "mcp",
+        "auth",
+        "storage",
+        "realtime",
+        "edge-functions",
+        "migrations",
+        "rls"
+      ],
+      "author": {
+        "name": "Supabase",
+        "email": "support@supabase.io",
+        "url": "https://supabase.com"
+      },
+      "homepage": "https://supabase.com",
+      "repository": "https://github.com/supabase-community/supabase-plugin",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/supabase/supabase.zip?v=84ba08c93bcd",
+        "sha256": "84ba08c93bcd06d3abf067085386ad8590f04aa19f74a06bb0ff26e34756f642"
+      }
+    },
+    {
+      "name": "superpowers",
+      "displayName": "Superpowers",
+      "version": "7.0.1",
+      "description": "Make your coding agent a better engineer",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/superpowers/assets/antigravity-logo.png?v=d9eb1f1893e6",
+      "suggestedPrompts": [
+        "I've got an idea for something I'd like to build",
+        "Let's figure out why this broke"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "skills",
+        "tdd",
+        "debugging",
+        "collaboration",
+        "best-practices",
+        "workflows"
+      ],
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com"
+      },
+      "homepage": "https://github.com/obra/superpowers",
+      "repository": "https://github.com/obra/superpowers",
+      "license": "MIT",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/superpowers/superpowers.zip?v=8ea5d527369d",
+        "sha256": "8ea5d527369d35c2f1e4ac23e52a59628068f19f85e8b664367d7588afa81128"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "trello",
+      "displayName": "Trello",
+      "description": "Official Trello plugin with the Trello MCP server and a skill for boards, lists, cards, checklists, Inbox, and Planner.",
+      "version": "0.1.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/trello/images/Trello_logo_light.svg?v=657a0e3d60e3",
+      "suggestedPrompts": [
+        "Summarize the cards that are due this week across my Trello boards.",
+        "Create a Trello card on my board for each TODO in this file.",
+        "Show what is in my Trello Inbox and suggest a board and list for each card."
+      ],
+      "author": {
+        "name": "Atlassian",
+        "url": "https://atlassian.com"
+      },
+      "homepage": "https://trello.com/mcp",
+      "repository": "https://github.com/atlassian/trello-mcp-server",
+      "license": "Apache-2.0",
+      "keywords": [
+        "trello",
+        "atlassian",
+        "mcp",
+        "boards",
+        "cards",
+        "kanban",
+        "project management"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/trello/trello.zip?v=945b4ab52ed2",
+        "sha256": "945b4ab52ed2ec5459fba44558aad076dbf9ea52179588029fa79ecb372b6010"
+      }
+    },
+    {
+      "name": "unity",
+      "displayName": "Unity",
+      "version": "0.1.8-beta",
+      "description": "Unity's official plugin for Antigravity, with curated skills for game development, monetization, and performance optimization.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/unity/assets/unity-tile.svg?v=14985d87adef",
+      "suggestedPrompts": [
+        "Set up a tilemap level with rule tiles for my 2D Unity game.",
+        "Help me implement in-app purchases and set up ad mediation with LevelPlay.",
+        "Set up multiplayer lobbies and networking for my Unity game."
+      ],
+      "author": {
+        "name": "Unity Technologies",
+        "url": "https://unity.com"
+      },
+      "homepage": "https://unity.com",
+      "repository": "https://github.com/Unity-Technologies/unity-agent-plugin",
+      "license": "LicenseRef-Unity-Companion-License",
+      "keywords": [
+        "unity",
+        "gamedev",
+        "game-development",
+        "ui-toolkit",
+        "ugui",
+        "2d",
+        "tilemap",
+        "in-app-purchases",
+        "monetization",
+        "localization",
+        "multiplayer",
+        "shader-graph"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/unity/unity.zip?v=2f8768aa9578",
+        "sha256": "2f8768aa9578e5a55d15dd3a46eb95202d14dc6a2f8f2f5701f3d19206c1ec0e"
+      }
+    },
+    {
+      "name": "vercel-plugin",
+      "displayName": "Vercel",
+      "version": "0.54.1",
+      "description": "Build and deploy web apps and AI agents on Vercel with skills for Next.js, AI SDK, and cloud services, plus the official Vercel MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/vercel-plugin/assets/vercel-antigravity.svg?v=9af5328beada",
+      "suggestedPrompts": [
+        "Help me deploy this app to Vercel",
+        "Investigate my latest failed Vercel deployment",
+        "Build an AI agent with the Vercel AI SDK"
+      ],
+      "keywords": [
+        "vercel",
+        "nextjs",
+        "ai-sdk",
+        "deployment",
+        "serverless",
+        "mcp"
+      ],
+      "author": {
+        "name": "Vercel",
+        "url": "https://vercel.com"
+      },
+      "homepage": "https://github.com/vercel/vercel-plugin#readme",
+      "repository": "https://github.com/vercel/vercel-plugin",
+      "license": "Apache-2.0",
+      "skills": [
+        "./skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/vercel-plugin/vercel-plugin.zip?v=f4cf74d7387d",
+        "sha256": "f4cf74d7387d9103ce4dd17d44f1bcdb5c933843e0328ebae5e57b37d70dcac1"
+      }
+    },
+    {
+      "name": "virustotal",
+      "displayName": "VirusTotal",
+      "version": "0.1.0",
+      "description": "Investigate files, URLs, domains and IP addresses with VirusTotal threat intelligence, analysis and submission recovery.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/virustotal/assets/virustotal-icon-512.png?v=5e6d78839291",
+      "suggestedPrompts": [
+        "Retrieve the existing VirusTotal report for example.com. Do not submit it for analysis.",
+        "Look up the existing VirusTotal report for file hash 44d88612fea8a8f36de82e1278abb02f.",
+        "Retrieve the existing VirusTotal report for IP address 8.8.8.8. Do not request a new analysis."
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/virustotal/virustotal.zip?v=4bc1e4c2fcec",
+        "sha256": "4bc1e4c2fcec9010ad809e1433d5dff868e344471a5d8fa229d9d25bd0138684"
+      }
+    },
+    {
+      "name": "wispr-flow",
+      "displayName": "Wispr Flow",
+      "description": "Search and read your Wispr Flow meeting notes, transcripts, scratchpad notes, and calendar events. Read-only access to your own account.",
+      "version": "1.0.0",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/wispr-flow/assets/logo-antigravity.png?v=090e6282e187",
+      "suggestedPrompts": [
+        "What did we decide in yesterday's pricing meeting?",
+        "Summarize my calls with Acme this month and list open action items.",
+        "Prep me for my next meeting."
+      ],
+      "category": "Productivity",
+      "author": {
+        "name": "Wispr Flow",
+        "email": "support@wisprflow.ai",
+        "url": "https://wisprflow.ai"
+      },
+      "homepage": "https://wisprflow.ai",
+      "repository": "https://github.com/Wispr-AI/wispr-flow-plugin",
+      "keywords": [
+        "meetings",
+        "notes",
+        "transcripts",
+        "calendar",
+        "dictation",
+        "productivity",
+        "mcp"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/wispr-flow/wispr-flow.zip?v=adfed78a363e",
+        "sha256": "adfed78a363e55318bda7d5d59c82c4498d8f9f9986ad18006a6e55611f4661b"
+      }
+    },
+    {
+      "name": "wix",
+      "displayName": "Wix",
+      "version": "1.36.2",
+      "description": "Build Wix apps and headless sites, and manage Wix stores, bookings, CMS and more, with Wix CLI skills and the official Wix MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/wix/assets/logo.svg?v=e5af414d6701",
+      "suggestedPrompts": [
+        "Build a headless online store on Wix and release it to Wix hosting",
+        "Add a dashboard page with Wix Design System UI to my Wix app",
+        "List my Wix sites and add three products to my store"
+      ],
+      "category": "Developer Tools",
+      "keywords": [
+        "wix",
+        "wix-cli",
+        "wix-mcp",
+        "wix-headless",
+        "headless",
+        "ecommerce",
+        "cms",
+        "wix-apps"
+      ],
+      "author": {
+        "name": "Wix",
+        "url": "https://dev.wix.com"
+      },
+      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
+      "repository": "https://github.com/wix/skills",
+      "license": "MIT",
+      "skills": [
+        "./skills"
+      ],
+      "mcpServers": "./mcp_config.json",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/wix/wix.zip?v=957e1cecc063",
+        "sha256": "957e1cecc06365d45dcbb810483d94cb96a3c93841648d5a02234a292f43ba3d"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "wordpress",
+      "displayName": "WordPress",
+      "version": "1.0.0",
+      "description": "Build, publish, and manage WordPress.com and Jetpack-connected sites. Draft posts, edit blocks, check traffic stats, moderate comments, and manage plugins.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/wordpress/assets/logo.png?v=8dc149b4f1ad",
+      "skills": [
+        "./skills"
+      ],
+      "suggestedPrompts": [
+        "Review my site\u2019s traffic and suggest what I should publish next.",
+        "Update the \u201cLearn more\u201d button on my page to \u201cBook a consultation\u201d and link it to my Contact page.",
+        "Draft a blog post announcing 20% off all products this weekend."
+      ],
+      "keywords": [
+        "wordpress",
+        "wordpress.com",
+        "jetpack",
+        "website-builder",
+        "publishing",
+        "cms",
+        "blog",
+        "mcp"
+      ],
+      "author": {
+        "name": "Automattic Inc.",
+        "url": "https://wordpress.com"
+      },
+      "homepage": "https://wordpress.com",
+      "repository": "https://github.com/Automattic/wordpress-antigravity-plugin",
+      "license": "GPL-2.0-or-later",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/wordpress/wordpress.zip?v=77d7e88a0103",
+        "sha256": "77d7e88a010394295d6c87f9691ea926569adf9baec1962683fe5b4f6fcdb490"
+      }
+    },
+    {
+      "name": "zapier",
+      "displayName": "Zapier",
+      "version": "1.0.0",
+      "description": "Connect 9,000+ apps to your AI workflow. Discover, enable, and execute Zapier actions and workflows directly from your client.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zapier/assets/logo.svg?v=27609bad28e2",
+      "suggestedPrompts": [
+        "Show me around the Zapier MCP plugin and get me set up",
+        "Find a Zapier action that sends a Slack message and try it",
+        "List the Zapier apps I have connected and what actions are available"
+      ],
+      "category": "Productivity",
+      "keywords": [
+        "zapier",
+        "mcp",
+        "model-context-protocol",
+        "automation",
+        "integrations",
+        "workflow",
+        "ai-actions",
+        "api",
+        "no-code",
+        "ai-tools",
+        "productivity"
+      ],
+      "author": {
+        "name": "Zapier",
+        "email": "support@zapier.com",
+        "url": "https://zapier.com"
+      },
+      "homepage": "https://docs.zapier.com/mcp/home",
+      "repository": "https://github.com/zapier/zapier-mcp",
+      "license": "MIT",
+      "skills": [
+        "./skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zapier/zapier.zip?v=95a49d5f0e24",
+        "sha256": "95a49d5f0e249bf2f7ca5cd7aa0b0c438fd6a90bb5c5b57387a38ddc995fc6df"
+      }
+    },
+    {
+      "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+      "name": "zoho-bigin",
+      "displayName": "Bigin",
+      "version": "1.0.0",
+      "description": "Manage your Bigin CRM from Antigravity: review pipelines, find contacts and deals, log calls, plan follow-ups, and email customers.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zoho-bigin/assets/logo.svg?v=4ef513b6b0e0",
+      "suggestedPrompts": [
+        "Show my open deals in Bigin",
+        "List my Bigin tasks due this week",
+        "Add a new contact to Bigin"
+      ],
+      "keywords": [
+        "zoho",
+        "bigin",
+        "crm",
+        "sales",
+        "pipelines",
+        "deals",
+        "contacts",
+        "companies",
+        "tasks"
+      ],
+      "author": {
+        "name": "Zoho Corporation",
+        "email": "support@bigin.com",
+        "url": "https://www.bigin.com"
+      },
+      "homepage": "https://www.bigin.com/developer/docs/apis/v2/",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zoho-bigin/zoho-bigin.zip?v=a75864783663",
+        "sha256": "a75864783663c6413fa5d615c756a62975399e4257d96fc908afd411a0361c85"
+      }
+    },
+    {
+      "name": "zoho-crm-plugin",
+      "displayName": "Zoho CRM",
+      "version": "1.0.0",
+      "description": "Build on Zoho CRM v8: REST API, Deluge functions, ClientScript, widgets, COQL and connections, with live CRM data through your Zoho MCP server.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zoho-crm-plugin/assets/logo.png?v=77831049d21d",
+      "suggestedPrompts": [
+        "Write a Deluge function that updates a Deal's stage when its related Task is closed",
+        "Write a COQL query for all open Leads created this month, with their owner names",
+        "Create a ClientScript that hides the Fax field on Contacts when Lead Source is Web"
+      ],
+      "keywords": [
+        "zoho",
+        "zoho-crm",
+        "crm",
+        "deluge",
+        "coql",
+        "clientscript",
+        "widgets",
+        "mcp"
+      ],
+      "author": {
+        "name": "Zoho Corporation",
+        "url": "https://www.zoho.com"
+      },
+      "homepage": "https://github.com/zoho/crm-skills",
+      "repository": "https://github.com/zoho/crm-skills",
+      "license": "Apache-2.0",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zoho-crm-plugin/zoho-crm-plugin.zip?v=55264e64ce0c",
+        "sha256": "55264e64ce0ce0f0c75610a376b10632ad082cf6e49ef5b0a8473cef052ac2a6"
+      }
+    },
+    {
+      "name": "zoho-desk-antigravity",
+      "displayName": "Zoho Desk",
+      "version": "1.0.0",
+      "description": "Zoho Desk plugin for Antigravity. Review, prioritize, and update Zoho Desk tickets directly from Antigravity through Zoho Desk MCP and includes a Ticket Prioritization Agent for triage and priority updates.",
+      "suggestedPrompts": [
+        "Prioritize Zoho Desk ticket 12345 and explain the evidence.",
+        "Review this ticket and recommend High, Medium, or Low priority.",
+        "Triage a ticket and recommend the right support team."
+      ],
+      "category": "Productivity",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zoho-desk-antigravity/assets/logo.svg?v=d8c481db6a7e",
+      "keywords": [
+        "zoho-desk",
+        "zoho-desk-mcp",
+        "ticket",
+        "requests",
+        "ticket-prioritization",
+        "zoho-agents",
+        "zoho-desk-assistant",
+        "portal",
+        "support",
+        "customer-support",
+        "customer-service",
+        "customer-ticket"
+      ],
+      "author": {
+        "name": "Zoho Desk",
+        "email": "zohosupport@zohocorp.com",
+        "url": "https://www.zoho.com/desk/"
+      },
+      "homepage": "https://www.zoho.com/desk/",
+      "repository": "https://github.com/zoho/zohodesk-antigravity-plugin",
+      "license": "Proprietary",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zoho-desk-antigravity/zoho-desk-antigravity.zip?v=4cdfbe32bbe5",
+        "sha256": "4cdfbe32bbe53d1c82c16be437232898919d3cb93addf8e30762a566d41b65fe"
+      }
+    },
+    {
+      "name": "zoho-projects",
+      "displayName": "Zoho Projects",
+      "version": "0.1.0",
+      "description": "Connect Zoho Projects to Antigravity to turn tasks and issues into working code. Access project context, investigate bugs, and update work items as you develop.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zoho-projects/assets/logo.svg?v=ce6e38523f37",
+      "suggestedPrompts": [
+        "Show my open tasks and issues in Zoho Projects.",
+        "Help me implement a Zoho Projects task or fix an issue in this repository.",
+        "Update my task with the changes made and tests performed and log 2 hours today for it."
+      ],
+      "keywords": [
+        "zoho",
+        "zoho-projects",
+        "project-management",
+        "portfolio-management",
+        "tasks",
+        "issues",
+        "timesheets",
+        "time-tracking",
+        "custom-modules"
+      ],
+      "author": {
+        "name": "Zoho Projects",
+        "email": "support@zohoprojects.com",
+        "url": "https://www.zoho.com/projects/"
+      },
+      "homepage": "https://www.zoho.com/projects/",
+      "repository": "https://github.com/zoho/zohoprojects-agentskills",
+      "license": "Apache-2.0",
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zoho-projects/zoho-projects.zip?v=a2a035798bc1",
+        "sha256": "a2a035798bc11f932d1d304e33d03d6d2c8c91e1737d67328b67a8abab98abc4"
+      }
+    },
+    {
+      "name": "zohobooks-antigravity",
+      "displayName": "Zoho Books",
+      "version": "1.0.0",
+      "description": "Run Zoho Books from Antigravity: invoicing, bills, banking, journals, projects, items, taxes, customization and automation.",
+      "logo": "https://www.gstatic.com/antigravity/plugins-partners/zohobooks-antigravity/assets/logo.svg?v=b7a348578c0c",
+      "suggestedPrompts": [
+        "List my overdue Zoho Books invoices and summarize what each customer owes",
+        "Show uncategorized bank transactions and suggest matches",
+        "Create an invoice for customer Acme Corp with 10 hours of consulting at 150 per hour"
+      ],
+      "keywords": [
+        "zoho",
+        "zoho-books",
+        "accounting",
+        "invoices",
+        "bills",
+        "expenses",
+        "banking",
+        "journals",
+        "projects",
+        "bookkeeping",
+        "finance"
+      ],
+      "author": {
+        "name": "Zoho Corporation",
+        "email": "support@zohobooks.com",
+        "url": "https://www.zoho.com/books/"
+      },
+      "homepage": "https://www.zoho.com/books/",
+      "repository": "https://github.com/zoho/zohobooks-antigravity-plugin",
+      "license": "Proprietary",
+      "skills": [
+        "./skills"
+      ],
+      "source": {
+        "type": "archive",
+        "url": "https://www.gstatic.com/antigravity/plugins-partners/zohobooks-antigravity/zohobooks-antigravity.zip?v=fe5c848098c2",
+        "sha256": "fe5c848098c2826b524f5487e2f0269d6bf042a104a4c427910e59f4437c0959"
+      }
+    }
+  ]
+}

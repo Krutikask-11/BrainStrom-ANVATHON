@@ -1,0 +1,17 @@
+Task: a7f44a99-d0f3-4a42-ae97-d1f84fffdd52/task-60
+Status: RUNNING
+Log: file:///C:/Users/KRUTIKA%20SHIVANAND/.gemini/antigravity/brain/a7f44a99-d0f3-4a42-ae97-d1f84fffdd52/.system_generated/tasks/task-60.log
+Log output:
+<truncated 21 lines>
+ames
+  warnings.warn(
+C:\Users\KRUTIKA SHIVANAND\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\KRUTIKA SHIVANAND\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\KRUTIKA SHIVANAND\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+C:\Users\KRUTIKA SHIVANAND\AppData\Local\Programs\Python\Python312\Lib\site-packages\sklearn\utils\validation.py:2830: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+
+Last progress: 0s ago

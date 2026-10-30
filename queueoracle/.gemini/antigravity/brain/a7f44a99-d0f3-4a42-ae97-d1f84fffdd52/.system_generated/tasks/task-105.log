@@ -1,0 +1,9 @@
+Test-Path : Access is denied
+At line:1 char:87
++ ...  = $env:_LOCALAPPDATA; Test-Path "C:\Users\KRUTIKA SHIVANAND\Desktop"
++                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Users\KRUTIKA SHIVANAND\Desktop:String) [Test-Path], UnauthorizedA 
+   ccessException
+    + FullyQualifiedErrorId : ItemExistsUnauthorizedAccessError,Microsoft.PowerShell.Commands.TestPathCommand
+ 
+False
