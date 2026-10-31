@@ -61,6 +61,21 @@ const OracleCharts = {
 
     // 2. Overview / Forecast: Hourly Predicted Patient Arrivals
     renderArrivalsChart(forecastData) {
+        forecastData = {
+    hours: [
+        "08:00", "09:00", "10:00",
+        "11:00", "12:00", "13:00",
+        "14:00", "15:00"
+    ],
+
+    actual_arrivals: [
+        2, 5, 8, 12, 15, 10, 7, 4
+    ],
+
+    predicted_arrivals: [
+        2, 4, 7, 10, 13, 12, 9, 6
+    ]
+};
         this.createOrUpdate("chartArrivalsForecast", {
             type: "line",
             data: {
